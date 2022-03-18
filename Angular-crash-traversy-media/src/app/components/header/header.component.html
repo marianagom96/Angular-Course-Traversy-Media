@@ -1,1 +1,11 @@
-<p>header works!</p>
+<header>
+    <h1>
+        {{title}}
+    </h1>
+   <!--pass the color and text for reusable button, catched btnClick to fire off toggleAddTask--> 
+   <app-button 
+   color="green" 
+   text="Add" 
+   (btnClick)="toggleAddTask()" 
+   ></app-button>
+</header>

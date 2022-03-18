@@ -9,5 +9,4 @@ import { Component } from '@angular/core';
 
 //properties of the component cutom life cycle methods
 export class AppComponent {
-  title: string = 'Task Tracker';
 }
